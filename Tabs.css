@@ -1,0 +1,26 @@
+.tabs {
+	      width: 100vw;
+          overflow: hidden;
+		  position: sticky;
+		  top: 0;
+          background-color: #333;
+		  box-sizing: border-box;
+          padding-right:0;
+          z-index:100;	  
+	  }
+
+.tabs a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 50px;
+  text-decoration: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.tabs a:hover {
+  background-color: #ddd;
+  color: black;
+}
